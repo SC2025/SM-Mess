@@ -9,8 +9,26 @@
     }
 
 
-  img{
 
+
+    .main_heding{
+      margin-top: 0px;
+width: 99%;
+      font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+      font-weight: 1000;
+      background-color: rgb(235, 226, 152);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    position:fixed;
+    }
+
+
+  img{
     margin-top: 2px;
     width: 98%;
   height: 100%;
@@ -18,20 +36,12 @@
 
 }
 
-.main_heding{
-  font-size: 20px;
-  padding: 5px;
-  font-weight: 1000;
-  display: flex;
-  background-color: rgb(235, 226, 152);
-  display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-border: 2px solid black;
+#all_pro_page{
+  margin-top: 7%;
 }
 
 .photo{
+ 
   display: flex;
   flex-wrap: wrap;
   display: flex;
@@ -39,6 +49,7 @@ justify-content: center;
 text-align: center;
 height: fit-content;
 width: fit-content;
+
 }
 
 .photo>div{
@@ -51,14 +62,16 @@ height: fit-content;
 
 body{
   border: 2px solid black;
+  margin-top: 0px;
+  padding-top: 0px;
+margin-left: 3px;
+margin-right: 3 px ;
+padding-left: 3 px;
+padding-right:3 px ;
 }
 
 
-    
-    body{
-      padding: 5px;
-      margin: 5px;
-    }
+
     
     #pp_div_1,#pp_div_2{
       background-color: #dfe3f0;
