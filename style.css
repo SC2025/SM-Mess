@@ -7,6 +7,40 @@
     width: 100%;
     height: 100%;
     }
+
+
+  img{
+
+    margin-top: 2px;
+    width: 98%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.photo{
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+justify-content: center;
+text-align: center;
+height: fit-content;
+width: fit-content;
+}
+
+.photo>div{
+
+  border: 2px solid black;
+  width: 48%;
+display: block;
+height: fit-content;
+}
+
+body{
+  border: 2px solid black;
+}
+
+
     
     body{
       padding: 5px;
@@ -93,7 +127,7 @@ border-radius: 10PX;
 
       .O_price{
         font-weight: 1000;
-      color: rgb(179, 255, 0);
+      color: rgb(223, 171, 28);
       font-size: 20px;
         }
     
