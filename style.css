@@ -9,8 +9,6 @@
     }
 
 
-
-
     .main_heding{
       margin-top: 0px;
 width: 99%;
@@ -24,7 +22,7 @@ width: 99%;
     align-items: center;
     text-align: center;
     border: 2px solid black;
-    position:fixed;
+
     }
 
 
@@ -36,9 +34,7 @@ width: 99%;
 
 }
 
-#all_pro_page{
-  margin-top: 7%;
-}
+
 
 .photo{
  
@@ -133,6 +129,20 @@ padding-right:3 px ;
       text-align: center;
       align-items: center;
       background-color: #030303;
+    }
+
+    .heding_B{
+      padding: 5PX;
+      border: 2PX solid rgb(0, 0, 0);
+      color: #ffffff;
+      font-weight: 1000;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: #030303;
+      margin-top: 20PX;
+      margin-bottom: 3PX;
     }
     
 p{
