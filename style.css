@@ -1,17 +1,15 @@
-
 *{margin: 0;
     padding: 0;
-    box-sizing: border-box;};
-    
+    box-sizing: border-box;};    
     html,body{
     width: 100%;
     height: 100%;
     }
 
 
-    .main_heding{
+.main_heding{
       margin-top: 0px;
-width: 99%;
+     width: 100%;
       font-size: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -22,8 +20,7 @@ width: 99%;
     align-items: center;
     text-align: center;
     border: 2px solid black;
-
-    }
+}
 
 
   img{
@@ -31,32 +28,30 @@ width: 99%;
     width: 98%;
   height: 100%;
   object-fit: contain;
-
 }
 
 
 
 .photo{
- 
-  display: flex;
-  flex-wrap: wrap;
-  display: flex;
+display: flex;
+flex-wrap: wrap;
+display: flex;
 justify-content: center;
 text-align: center;
 height: fit-content;
 width: fit-content;
-
 }
 
 .photo>div{
-
   border: 2px solid black;
   width: 48%;
 display: block;
 height: fit-content;
-margin-bottom: 10PX;
+margin-bottom: 3PX;
 margin-top: 5PX;
 }
+
+
 
 body{
   border: 2px solid black;
@@ -83,6 +78,8 @@ padding-right:3 px ;
      font-weight: 900;
      opacity: 0;
     }
+
+
     
     #product-quntity{
       padding: 10px;
@@ -98,6 +95,8 @@ padding-right:3 px ;
       background-color: rgb(241, 249, 214);
       margin: 5px;
     }
+
+
     #mobnover_result{
       font-weight: 800;
       background-color: rgb(241, 249, 214);
@@ -105,6 +104,8 @@ padding-right:3 px ;
     margin: 0;
     font-weight: 1000;
     }
+
+
     #mobbtn{
       font-weight: 800;
       background-color: rgb(205, 229, 221);
@@ -112,6 +113,9 @@ padding-right:3 px ;
     margin: 0px;
     font-weight: 1000;
     }
+
+
+
     .button{
     font-weight: 1000;
     padding: 4px;
@@ -120,6 +124,8 @@ padding-right:3 px ;
     border-radius: 10px;
     font-size: 25px;
     }
+
+
 
     .heding_A{
       padding: 5PX;
@@ -133,6 +139,8 @@ padding-right:3 px ;
       background-color: #030303;
     }
 
+
+
     .heding_B{
       padding: 5PX;
       border: 2PX solid rgb(0, 0, 0);
@@ -143,8 +151,9 @@ padding-right:3 px ;
       text-align: center;
       align-items: center;
       background-color: #030303;
-      margin-top: 20PX;
+      margin-top: 10PX;
       margin-bottom: 3PX;
+      font-size: 15PX;
     }
     
 p{
@@ -226,7 +235,7 @@ border-radius: 10PX;
     height: fit-content;
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
     border: 3px solid;
     justify-content: center;
     text-align: center;
