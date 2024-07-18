@@ -12,7 +12,7 @@
     .main_heding{
       margin-top: 0px;
 width: 99%;
-      font-size: 20px;
+      font-size: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
       font-weight: 1000;
@@ -54,6 +54,8 @@ width: fit-content;
   width: 48%;
 display: block;
 height: fit-content;
+margin-bottom: 10PX;
+margin-top: 5PX;
 }
 
 body{
@@ -164,7 +166,7 @@ border-radius: 10PX;
       .O_price{
         font-weight: 1000;
       color: rgb(223, 171, 28);
-      font-size: 20px;
+      font-size: 15px;
         }
     
     select{
