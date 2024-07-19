@@ -482,11 +482,12 @@ else{
 
   +document.getElementById("finanl_amount").innerText + "%0a"  + "%0a" 
 
-  +   COLOUR1 + "/" +  "%0a"+ "%0a" 
 
   + "ORDER DATE" + " " + document.getElementById("today_date").innerHTML + "%0a"
 
     + "order delivery before" + " " + document.getElementById("order_del_date").innerHTML + "*" + "%0a"+ "%0a" 
+
+      +   COLOUR1 + "/" +  "%0a"
 
   + "trans.ID:-XXXXXXX" + document.getElementById("transaction_id").value  + "%0a"+ "%0a" 
 
