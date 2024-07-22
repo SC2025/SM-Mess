@@ -1,3 +1,9 @@
+document.addEventListener("contextmenu",function(e){
+  e.preventDefault()
+},false
+);
+
+
 
 const ORDER_TIME = document.querySelectorAll(".heding_B");
 for (let i = 0; i < ORDER_TIME.length; i++) {
