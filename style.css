@@ -1,3 +1,4 @@
+
 *{margin: 0;
   padding: 0;
   box-sizing: border-box;};    
@@ -276,7 +277,12 @@ border-radius: 10PX;
   display: flex;
   }
   
-  
+  .menu_detail{
+    background-color: rgb(68, 68, 50);
+
+    border: 1px solid wheat;
+  }
+
   .ONE_P_PRICE{
   background-color: rgb(2, 1, 0);
   padding: 4PX;
