@@ -1,3 +1,4 @@
+
 document.addEventListener("contextmenu",function(e){
   e.preventDefault()
 },false
@@ -37,41 +38,8 @@ setTimeout(() => {
 document.getElementById("secA_btn").disabled = true;
 document.getElementById("gotowhatsapp").disabled = true;
 
+         
 
-
-
-
-setInterval(() => {
-  document.getElementById("product-quntity").style.backgroundColor = "red";
-
-}, 1000);
-
-
-setInterval(() => {
-  document.getElementById("product-quntity").style.backgroundColor = "black";
-
-
-}, 2000);           
-
-setInterval(() => {
-  document.getElementById("Payment_gatway1").style.backgroundColor = "rgb(255, 55, 0)";
-  document.getElementById("Payment_gatway2").style.backgroundColor = "rgb(255, 55, 0)";
-  document.getElementById("Payment_gatway1").style.color = "white";
-  document.getElementById("Payment_gatway2").style.color = "white";
-  document.getElementById("finanl_amount").style.backgroundColor = "WHITE";
-  document.getElementById("finanl_amount").style.color = "black";
-  document.getElementById("finanl_amount").style.border = "2PX SOLID black";
-
-}, 1000);
-
-setInterval(() => {
-  document.getElementById("Payment_gatway1").style.backgroundColor = "black";
-  document.getElementById("Payment_gatway2").style.backgroundColor = "black";
-  document.getElementById("Payment_gatway1").style.color = "white";
-  document.getElementById("Payment_gatway2").style.color = "white";
-  document.getElementById("finanl_amount").style.backgroundColor = "black";
-  document.getElementById("finanl_amount").style.color = "white";
-}, 2000);
 
 
 
@@ -444,9 +412,11 @@ document.getElementById("chak_mark").innerHTML = `मी ${name_p.value} वर�
 document.getElementById("gotowhatsapp").addEventListener("click",function(){
   
 
-
-  if(document.getElementById("product_col").innerHTML === "L"){
+if(document.getElementById("product_col").innerHTML === "L"){
   var selectElement_L1_COL = document.getElementById("leggise_1");
+
+ 
+
   var COL_L1 = selectElement_L1_COL.options[selectElement_L1_COL.selectedIndex].text;
   document.getElementById("col_last_1").innerHTML = COL_L1;
 console.log(COL_L1);
