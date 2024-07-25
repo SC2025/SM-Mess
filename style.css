@@ -14,18 +14,18 @@
   
 
 .main_heding{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
     margin-top: 0px;
-   width: 100%;
+   width: 99%;
    height: 50px;
     font-size: 30px;
   padding-top: 3px;
   padding-bottom: 3px;
     font-weight: 1000;
     background-color: rgb(235, 226, 152);
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   border: 2px solid black;
   position: fixed;
 }
@@ -51,6 +51,8 @@ width: fit-content;
 
 }
 
+
+
 .photo>div{
   margin: 2px;
 border: 2px solid black;
@@ -72,8 +74,8 @@ border: 2px solid black;
 margin-top: 0px;
 padding-top: 0px;
 margin-left: 3px;
-margin-right: 3 px ;
-padding-left: 3 px;
+margin-right: 1 px ;
+padding-left: 1 px;
 padding-right:3 px ;
 
 }
@@ -157,8 +159,8 @@ padding-right:3 px ;
 
 
   .heding_B{
-    padding: 5PX;
-    border: 2PX solid rgb(0, 0, 0);
+    padding: 2PX;
+    border: 1PX solid rgb(0, 0, 0);
     color: #ffffff;
     font-weight: 1000;
     display: flex;
