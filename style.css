@@ -40,31 +40,20 @@ object-fit: contain;
 
 
 
+
+
+
+
 .photo{
-display: flex;
-flex-wrap: wrap;
-display: flex;
-justify-content: center;
-text-align: center;
-height: fit-content;
-width: fit-content;
-
-}
-
-
-
-.photo>div{
-  margin: 2px;
-border: 2px solid black;
-width: 48%;
-display: block;
-height: fit-content;
-margin-bottom: 5PX;
-margin-top: 5PX;
-padding: 2px;
+  display: flex;
 justify-content: center;
 text-align: center;
 align-items: center;
+height: fit-content;
+  flex-wrap: wrap;
+border: 2px solid black;
+width: 100%;
+margin-bottom: 5PX;
 }
 
 
@@ -299,20 +288,23 @@ border-radius: 10PX;
   border: 0.5PX SOLID rgb(164, 148, 148);
   
   }
+
   .btn{
-    background-color: #000000;
-    color: #ffffff;
-    box-shadow: rgba(106, 106, 139, 0.25) 0px 50px 100px -20px, rgba(189, 101, 101, 0.3) 0px 30px 60px -30px;
-    width: fit-content;
+    display: block;
+    width: 48%;
+   margin: 3px;
+   margin-bottom: 15px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: rgba(106, 106, 139, 0.25) 0px 50px 100px -20px, rgba(189, 101, 101, 0.3) 0px 30px 60px -30px;
     flex-wrap: wrap;
-    margin-bottom: 10px;
-    padding: 5px;
+    padding: 2px;
+    padding-bottom: 8px;
+    padding-top: 5px;
     border-radius: 10px;
-    font-weight: 600;
-    display: block;
+    font-weight: 800;
   }
   
