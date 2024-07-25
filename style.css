@@ -48,15 +48,21 @@ justify-content: center;
 text-align: center;
 height: fit-content;
 width: fit-content;
+
 }
 
 .photo>div{
+  margin: 2px;
 border: 2px solid black;
 width: 48%;
-display: block;
+display: flex;
 height: fit-content;
-margin-bottom: 3PX;
+margin-bottom: 5PX;
 margin-top: 5PX;
+padding: 2px;
+justify-content: center;
+text-align: center;
+align-items: center;
 }
 
 
