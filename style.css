@@ -218,6 +218,7 @@ border-radius: 10PX;
     background-color: rgb(179, 240, 240);
     font-weight: 1000;
   margin-top: 5px;
+  height: fit-content;
   }
   #finanl_amount{
     color: black;
