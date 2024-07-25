@@ -126,7 +126,7 @@ for(let i = 0; i<button.length; i++){
 setTimeout(() => {
  
   document.getElementById("product_price_result").innerHTML = this.value;
-  document.getElementById("product_name_result").innerText = this.innerText;
+  document.getElementById("product_name_result").innerText = this.innerText.replace("Order Now","");
   document.getElementById("product_col").innerHTML = this.name;
 
   document.getElementById("all_pro_page").remove();
