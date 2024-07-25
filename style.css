@@ -55,7 +55,7 @@ width: fit-content;
   margin: 2px;
 border: 2px solid black;
 width: 48%;
-display: flex;
+display: block;
 height: fit-content;
 margin-bottom: 5PX;
 margin-top: 5PX;
